@@ -392,7 +392,7 @@ function getRisk(score) {
 // ── QUEUE ──
 var QUEUE_KEY = 'news2_queue';
 var WEBHOOK_KEY = 'news2_webhook';
-var DEFAULT_WEBHOOK = 'https://script.google.com/macros/s/AKfycbxfZzHMeG2D6pWIK3WWM10QrldE7hvv2MwECZMOmktmBFOn9sXVlG3Ub9XCR3gtIiAR/exec';
+var DEFAULT_WEBHOOK = 'https://script.google.com/macros/s/AKfycbxAYq7VoNAejNWk60zzJ3vBEtU_B2sABz9_2wfktk8BXpbT669i-S2XRKAI5XglqLHd/exec';
 
 function loadQueue() {
   try { return JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]'); } catch(e) { return []; }
