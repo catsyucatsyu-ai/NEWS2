@@ -255,7 +255,7 @@
     <div class="section-header"><span class="section-title">Google Sheets</span></div>
     <div class="field">
       <label>Apps Script URL <button class="toggle-help" onclick="toggleHelp()">setup guide</button></label>
-      <input type="url" id="webhookUrl" placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off" oninput="saveWebhook()">
+      <input type="url" id="webhookUrl" placeholder="https://script.google.com/macros/s/AKfycbxNrmPfzqPq_9RevEN3A3oo20COMXte0xpaWR5bVFSs7CC-0-JRvf9ddkJNkYu1E0cn/exec" autocomplete="off" oninput="saveWebhook()">
     </div>
     <div class="webhook-help" id="webhook-help">
       <strong>Apps Script code — paste this exactly:</strong>
@@ -392,7 +392,7 @@ function getRisk(score) {
 // ── QUEUE ──
 var QUEUE_KEY = 'news2_queue';
 var WEBHOOK_KEY = 'news2_webhook';
-var DEFAULT_WEBHOOK = 'https://script.google.com/macros/s/AKfycbxAYq7VoNAejNWk60zzJ3vBEtU_B2sABz9_2wfktk8BXpbT669i-S2XRKAI5XglqLHd/exec';
+var DEFAULT_WEBHOOK = 'https://script.google.com/macros/s/AKfycbxNrmPfzqPq_9RevEN3A3oo20COMXte0xpaWR5bVFSs7CC-0-JRvf9ddkJNkYu1E0cn/exec';
 
 function loadQueue() {
   try { return JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]'); } catch(e) { return []; }
